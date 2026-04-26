@@ -1,0 +1,25 @@
+{
+	"LatestVersion": "2.1.1",
+	"ReleaseNotes": "Mesen 2.1.1 (July 6, 2025)\n-----------------------------------------\nThis release mostly contains bug fixes and accuracy improvements.\n\n- GBA: Several accuracy improvements (based on test roms)\n- GBC: Fixed broken menu graphics in NASCAR 2000\n- NES: Minor accuracy improvements for rare/unlikely edge cases (based on test roms)\n- NES: Fixed some issues with the Rainbow mapper implementation\n- NES: Fixed freeze in Mighty Bomb Jack's original release (mapper 185)\n- NES: Fixed NSF file playback in a rare scenario that caused no audio to be played\n- NES: Added support for mapper 552 (fixed version of mapper 82)\n- PCE: CD-ROM - Added support for CD+G disc playback\n- PCE: CD-ROM - Fixed freeze in intro sequence in Hyper Dyne Sidearms Special\n- PCE: CD-ROM - Fixed broken intro sequence in Princess Maker 1 and 2\n- PCE: Minor CPU accuracy fixes/improvements\n- SNES: Added support for homebrew SNES rumble controller\n- WS: Minor accuracy improvements (based on test roms)\n- Linux: Fixed crash on startup for some systems when using Wayland\n- Linux: Fixed freeze on some systems when closing debugger tools\n- Linux/macOS: Fixed crash when SDL2 is not found (display an error message instead)\n- Misc: Disabled log output to console (use --enableStdout to manually enable this behavior)",
+	"Files": [{
+		"Platform": ["win-x64-aot", "win-x64-jit"],
+		"DownloadUrl": "https://github.com/SourMesen/Mesen2/releases/download/2.1.1/Mesen_2.1.1_Windows.zip",
+		"Hash": "23CCC2BC060B663C68DAD3A8C5D6DA7D23A50F872D04F135BAFA2B04FF7D5CBE"
+	}, {
+		"Platform": ["linux-x64-aot", "linux-x64-jit"],
+		"DownloadUrl": "https://github.com/SourMesen/Mesen2/releases/download/2.1.1/Mesen_2.1.1_Linux_x64.zip",
+		"Hash": "7A9947575CC198209F743FEF83FB2B702B786EA705506BDF3F2AEA01AB7C1CE9"
+	}, {
+		"Platform": ["linux-arm64-aot", "linux-arm64-jit"],
+		"DownloadUrl": "https://github.com/SourMesen/Mesen2/releases/download/2.1.1/Mesen_2.1.1_Linux_ARM64.zip",
+		"Hash": "B0E028F616AB61AE3247F720A80CBE696A29FCBBF01AEC0F0103B3B66B3F4DAD"
+	}, {
+		"Platform": ["macos-x64-aot", "macos-x64-jit"],
+		"DownloadUrl": "https://github.com/SourMesen/Mesen2/releases/download/2.1.1/Mesen_2.1.1_macOS_x64_Intel.zip",
+		"Hash": "538F3D072891B1546C961E53F8DEB0718D7B273573B16E3318DB8F1E9B1AC96D"
+	}, {
+		"Platform": ["macos-arm64-aot", "macos-arm64-jit"],
+		"DownloadUrl": "https://github.com/SourMesen/Mesen2/releases/download/2.1.1/Mesen_2.1.1_macOS_ARM64_AppleSilicon.zip",
+		"Hash": "C16068B3D934F7B993B782A0652B8F0E7FC0CDE7464862FEA91D5E76B68A813F"
+	}]
+}
