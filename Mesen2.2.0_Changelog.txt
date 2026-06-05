@@ -1,3 +1,8 @@
+2.2.1 Hotfix:
+NES:
+- CHR-RAM: Fixed CHR-RAM setup when loading iNES ROMs that are present in the NES database (Fiskbit)
+
+
 Full changelog for Mesen 2.2.0 (compared to Mesen 2.1.1):
 
 GB:
